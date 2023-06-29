@@ -1,9 +1,36 @@
-.html{
 
-}
 .profile_pic{
     height: 20%;
 }
 .title-s{
     font-weight: bold;
+}
+span{
+    color: midnightblue;
+}
+.lead{
+    text-align: justify;
+}
+.connect{
+    font-weight: 500;
+    font-size:x-large;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .skill-mf{
+        padding-top: 3rem;
+    }
+    .col-lg-6{
+        padding-top: 3rem;
+    }
+}
+.card-1{
+        background-image: url("./assets/control\ of\ power\ supply.jpg");
+    }
+.card-2{
+    background-image: url("./assets/accsaver.PNG");
+}
+.card-3{
+    background-image: url("./assets/tindog.jpg");
 }
