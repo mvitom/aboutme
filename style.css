@@ -5,19 +5,25 @@
 .title-s{
     font-weight: bold;
 }
-span{
-    color: midnightblue;
+.success{
+    color:chartreuse;
 }
 .lead{
     text-align: justify;
 }
 .connect{
-    font-weight: 500;
-    font-size:x-large;
+    font-weight: 500 ;
+    font-size: 3rem;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
+    .connect{
+        font-size: 1.5rem;
+    }
     .skill-mf{
         padding-top: 3rem;
     }
@@ -33,4 +39,7 @@ span{
 }
 .card-3{
     background-image: url("./assets/tindog.jpg");
+}
+.card-4{
+    background-image: url("./assets/moveit.PNG");
 }
