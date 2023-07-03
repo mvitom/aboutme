@@ -11,6 +11,9 @@
 .lead{
     text-align: justify;
 }
+.specialization {
+    font-weight: 400;
+}
 .connect{
     font-weight: 500 ;
     font-size: 3rem;
@@ -22,7 +25,9 @@
 .popisek{
     color: chartreuse;
 }
-
+.connect {
+    margin: 5rem 0 5rem 0;
+}
 @media (max-width: 768px) {
     .connect{
         font-size: 2rem;
@@ -30,7 +35,11 @@
     .skill-mf{
         padding-top: 3rem;
     }
-
+}
+@media (min-width: 768px) {
+    .lead{
+        font-size: 1.5rem;
+    }
 }
 .card-1{
         background-image: url("./assets/control\ of\ power\ supply.jpg");
